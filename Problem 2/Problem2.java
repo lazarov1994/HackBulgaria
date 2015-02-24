@@ -61,10 +61,8 @@ public class Problem2 {
 			if (list[i].isDirectory()) {
 
 				walk(list[i].getAbsolutePath());
-				// System.out.println("Directory :" +
-				// list[i].getAbsolutePath());
+			
 			} else {
-				// System.out.println("File :" + list[i].getAbsolutePath());
 
 				name.add(list[i].getAbsolutePath());
 
