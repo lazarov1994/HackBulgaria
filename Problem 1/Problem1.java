@@ -14,7 +14,7 @@ public class Problem1 {
     	}
 		else{
 		ArrayList<Integer> c = new ArrayList<Integer>();
-		if(a==1){
+		if(a==1 || a==0){
 			c.add(1);
 		}
         boolean[] isPrime = new boolean[b + 1];
