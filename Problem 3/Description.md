@@ -1,1 +1,3 @@
-For that problem I believe I used some more interesting logic : 
+#The idea behind the solution :
+For that problem I believe I used some more interesting logic : I find all substrings with length 26,27..... input.length. Then I chacked them all one by one first starting from all substring with lenght 26 and so on. When I am checking all the strings with a give lenght for example all with lenght 26 I wrote how many of the alphabets this string contains for example if it contains 20 of all 26 I am skipping the next 6 steps cause I am sure there will be no match cause with only 1 new letter on each iteration I will need at least 6 more for my missing 6 letters ! 
+PS: I shoulded used the ASCII table for checking the letters.
